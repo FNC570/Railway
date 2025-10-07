@@ -18,7 +18,7 @@ from werkzeug.middleware.proxy_fix import ProxyFix
 
 # Import the existing workflow functions
 sys.path.append('/home/ubuntu')
-from fantasy_news_center_workflow import get_sleeper_data, generate_json_report, download_user_avatars
+# from fantasy_news_center_workflow import get_sleeper_data, generate_json_report, download_user_avatars
 
 # Configure logging
 logging.basicConfig(
