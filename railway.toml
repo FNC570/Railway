@@ -1,0 +1,11 @@
+[build]
+builder = "dockerfile"
+
+[deploy]
+healthcheckPath = "/health"
+healthcheckTimeout = 30
+restartPolicyType = "always"
+
+[env]
+PORT = "5000"
+PYTHONUNBUFFERED = "1"
