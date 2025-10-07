@@ -5,7 +5,7 @@ from datetime import datetime
 import os
 import subprocess
 import shutil
-from download_avatars import download_user_avatars, get_avatar_info
+# from download_avatars import download_user_avatars, get_avatar_info
 
 # --- Sleeper Data Pull and Script Generation Functions ---
 def get_sleeper_data(user_id, sport, season, league_id, week):
