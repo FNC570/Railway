@@ -36,7 +36,7 @@ app.wsgi_app = ProxyFix(app.wsgi_app, x_for=1, x_proto=1, x_host=1, x_prefix=1)
 
 # Configuration
 GITHUB_TOKEN = "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"
-GITHUB_REPO = "https://github.com/FNC570/FNC.git"
+GITHUB_REPO = "https://github.com/FNC570/Railway"
 GITHUB_BRANCH = "main"
 
 def get_current_nfl_week():
